@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "80dfaea0_6f05faaa",
+        "filename": "android.hardware.security.rkp-service.citadel.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-10-17T17:35:11Z",
+      "side": 1,
+      "message": "Does this actually work?\n\nhttps://android.googlesource.com/platform/packages/apps/RemoteProvisioner/",
+      "revId": "7d7b406f4a0b71f806a1483d74b4a37b2aebbf01",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
