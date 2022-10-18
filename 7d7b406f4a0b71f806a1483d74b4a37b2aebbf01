@@ -16,6 +16,24 @@
       "message": "Does this actually work?\n\nhttps://android.googlesource.com/platform/packages/apps/RemoteProvisioner/",
       "revId": "7d7b406f4a0b71f806a1483d74b4a37b2aebbf01",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2c737d85_91fae135",
+        "filename": "android.hardware.security.rkp-service.citadel.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2022-10-18T21:39:30Z",
+      "side": 1,
+      "message": "No idea, I just made it match stock manifest.xml",
+      "parentUuid": "80dfaea0_6f05faaa",
+      "revId": "7d7b406f4a0b71f806a1483d74b4a37b2aebbf01",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
