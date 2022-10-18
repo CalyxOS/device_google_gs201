@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "96b2c44e_50dca3ed",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2022-10-18T21:39:57Z",
+      "side": 1,
+      "message": "device/google/gs201$ rg EuiccSupportPixelOverlay\nrro_overlays/EuiccSupportPixelOverlay/Android.bp\n13:    name: \"EuiccSupportPixelOverlay\",",
+      "revId": "5da9eac564583958ef1b837fabaf0dab9369b7e8",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
