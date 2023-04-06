@@ -16,6 +16,24 @@
       "message": "Works, except that when Restrict USB is off (always allow), USB devices are never connected until the setting is changed to Never allow and back, regardless of unplug/re-plug. This affects bramble too; maybe fixable or can be worked around elsewhere.",
       "revId": "75497dd7f9c8b7ee1aaf2258baabb97f8adeb401",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "64ded556_c799fc23",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-04-06T17:16:51Z",
+      "side": 1,
+      "message": "https://review.calyxos.org/c/CalyxOS/platform_frameworks_base/+/16522",
+      "parentUuid": "6e228708_bea28e24",
+      "revId": "75497dd7f9c8b7ee1aaf2258baabb97f8adeb401",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
