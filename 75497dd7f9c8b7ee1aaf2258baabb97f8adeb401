@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6e228708_bea28e24",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-04-06T15:42:11Z",
+      "side": 1,
+      "message": "Works, except that when Restrict USB is off (always allow), USB devices are never connected until the setting is changed to Never allow and back, regardless of unplug/re-plug. This affects bramble too; maybe fixable or can be worked around elsewhere.",
+      "revId": "75497dd7f9c8b7ee1aaf2258baabb97f8adeb401",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
