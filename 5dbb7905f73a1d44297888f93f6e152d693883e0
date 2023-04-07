@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3ab3bdcd_81caedb5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-04-07T22:27:03Z",
+      "side": 1,
+      "message": "Note to self: If you\u0027re messing with sepolicy on existing scripts, *always* use `m installclean` and do a fresh `fastboot flashall`. *Sometimes* you can get away with using `adb sync` and not using `m installclean` to save some time. But not so much if you\u0027re messing with sepolicy, or in a variety of other circumstances. Prepare to be very confused if you don\u0027t listen to this.",
+      "revId": "5dbb7905f73a1d44297888f93f6e152d693883e0",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
