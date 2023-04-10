@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "66671572_2fb1f311",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-04-10T20:19:20Z",
+      "side": 1,
+      "message": "Unfortunately doesn\u0027t appear to be working on Pixel 7 Pro.",
+      "revId": "a88941eb9aab4c6739f429196a77003d91182ff5",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
