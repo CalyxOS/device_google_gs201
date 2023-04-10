@@ -69,6 +69,24 @@
       "parentUuid": "2279dbac_44471c50",
       "revId": "a88941eb9aab4c6739f429196a77003d91182ff5",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7284ea8d_19759a53",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-04-10T21:03:11Z",
+      "side": 1,
+      "message": "Looks like it is working after the usual bit of fiddling/time that Wi-Fi Calling always seems to require. Too bad `com.android.qns` isn\u0027t open-source, despite not including `google` or something in the package name.",
+      "parentUuid": "c21db31f_12805f78",
+      "revId": "a88941eb9aab4c6739f429196a77003d91182ff5",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
