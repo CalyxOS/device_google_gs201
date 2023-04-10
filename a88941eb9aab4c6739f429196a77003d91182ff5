@@ -51,6 +51,24 @@
       "parentUuid": "49377295_bee3b8d1",
       "revId": "a88941eb9aab4c6739f429196a77003d91182ff5",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c21db31f_12805f78",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-04-10T20:48:24Z",
+      "side": 1,
+      "message": "QualifiedNetworksService is different, and has different package name:\n```\ncheetah:/ $ dumpsys package | grep -C1 /system_ext/priv-app/QualifiedNetworksService/QualifiedNetworksService.apk                                                                                                          \n  [com.android.qns]\n    path: /system_ext/priv-app/QualifiedNetworksService/QualifiedNetworksService.apk\n      arm64: [status\u003dverify] [reason\u003dfirst-boot]\n```",
+      "parentUuid": "2279dbac_44471c50",
+      "revId": "a88941eb9aab4c6739f429196a77003d91182ff5",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
