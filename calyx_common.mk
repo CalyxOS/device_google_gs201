@@ -8,8 +8,10 @@
 DEVICE_PACKAGE_OVERLAYS += device/google/gs201/overlay-calyx
 
 # EUICC
+ifneq ($(BOARD_WITHOUT_RADIO),true)
 PRODUCT_PACKAGES += \
     EuiccSupportPixelOverlay
+endif
 
 # Lineage Health
 include hardware/google/pixel/lineage_health/device.mk
