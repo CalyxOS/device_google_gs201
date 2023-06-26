@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "67d86a44_391354c7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-06-26T21:39:19Z",
+      "side": 1,
+      "message": "Need to make sure this doesn\u0027t affect phones adversely, left comment upstream.",
+      "revId": "69c09d2857e920f3ef8b713ae6e67e4bb7d09e6f",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
