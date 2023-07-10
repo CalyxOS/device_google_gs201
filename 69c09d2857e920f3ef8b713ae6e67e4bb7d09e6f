@@ -16,6 +16,24 @@
       "message": "Need to make sure this doesn\u0027t affect phones adversely, left comment upstream.",
       "revId": "69c09d2857e920f3ef8b713ae6e67e4bb7d09e6f",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8637973a_650ac623",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2023-07-10T16:17:55Z",
+      "side": 1,
+      "message": "It doesn\u0027t with PS4 and https://review.calyxos.org/c/CalyxOS/vendor_calyx/+/18280",
+      "parentUuid": "67d86a44_391354c7",
+      "revId": "69c09d2857e920f3ef8b713ae6e67e4bb7d09e6f",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
