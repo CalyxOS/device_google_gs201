@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "53d9a781_6ae0763f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-10-03T15:28:08Z",
+      "side": 1,
+      "message": "gs101 works fine.",
+      "revId": "eff2db657dbbc0b43d66ca10897d23f3d9242368",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
