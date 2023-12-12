@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bac79275_d66800e4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-12-12T11:00:52Z",
+      "side": 1,
+      "message": "Works on gs101 and zuma",
+      "revId": "99c1f93eb5d53211dc9236fc474f96d6acd5b628",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
