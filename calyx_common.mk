@@ -19,5 +19,9 @@ include hardware/google/pixel/lineage_health/device.mk
 PRODUCT_VENDOR_LINKER_CONFIG_FRAGMENTS += \
     device/google/gs201/linker.config.json
 
+# Tethering
+PRODUCT_PACKAGES += \
+    TetheringOverlay
+
 # Touch
 include hardware/google/pixel/touch/device.mk
