@@ -84,8 +84,6 @@ PRODUCT_SOONG_NAMESPACES += \
 	vendor/google_nos/test/system-test-harness \
 	vendor/google/camera
 
-LOCAL_KERNEL := $(TARGET_KERNEL_DIR)/Image.lz4
-
 ifeq ($(RELEASE_AVF_ENABLE_LLPVM_CHANGES),true)
 	# Set the environment variable to enable the Secretkeeper HAL service.
 	SECRETKEEPER_ENABLED := true
@@ -358,7 +356,6 @@ PRODUCT_ENFORCE_PRODUCT_PARTITION_INTERFACE := true
 
 # Init files
 PRODUCT_COPY_FILES += \
-	$(LOCAL_KERNEL):kernel \
 	device/google/gs201/conf/init.gs201.usb.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.gs201.usb.rc \
 	device/google/gs201/conf/ueventd.gs201.rc:$(TARGET_COPY_OUT_VENDOR)/etc/ueventd.rc
 
@@ -402,7 +399,7 @@ include device/google/gs-common/insmod/insmod.mk
 
 # Insmod config files
 PRODUCT_COPY_FILES += \
-	$(call find-copy-subdir-files,init.insmod.*.cfg,$(TARGET_KERNEL_DIR),$(TARGET_COPY_OUT_VENDOR_DLKM)/etc)
+	$(call find-copy-subdir-files,init.insmod.*.cfg,$(TARGET_KERNEL_DIR)/vendor_dlkm/etc,$(TARGET_COPY_OUT_VENDOR_DLKM)/etc)
 
 # For creating dtbo image
 PRODUCT_HOST_PACKAGES += \
