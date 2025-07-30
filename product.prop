@@ -18,10 +18,6 @@ bluetooth.profile.pbap.server.enabled?=true
 bluetooth.profile.sap.server.enabled?=true
 persist.bluetooth.bqr.min_interval_ms=500
 
-# Camera
-ro.frameworks.camera2.extension.service=com.google.android.apps.camera.services.extensions.service.CameraExtensions
-ro.vendor.camera.extensions.package=com.google.android.apps.camera.services
-
 # Dumpstate
 dumpstate.strict_run=false
 
