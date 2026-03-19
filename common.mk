@@ -362,7 +362,6 @@ PRODUCT_PACKAGES += \
     GlanceableHubSysuiConfigOverlay \
     GoogleConfigOverlay \
     GooglePermissionControllerSafetyCenterOverlay \
-    PixelConfigOverlay2019 \
     PixelConfigOverlay2021 \
     PixelConfigOverlayCommon \
     PixelConnectivityOverlay2023_midyear \
@@ -373,8 +372,7 @@ PRODUCT_PACKAGES += \
     SystemUIGoogleOverlayProductGs201 \
     SystemUIGoogleOverlayVendorGs201 \
     TeleServiceOverlayProductGs201 \
-    TeleServiceOverlayVendorGs201 \
-    TelephonyProviderOverlayProductGs201
+    TeleServiceOverlayVendorGs201
 
 ifneq ($(TARGET_IS_TABLET),true)
 PRODUCT_PACKAGES += \
@@ -385,8 +383,7 @@ endif
 PRODUCT_PACKAGES += \
     FrameworkResOverlayLineageGs201 \
     LineageSdkOverlayRestartGs201 \
-    SettingsOverlayBatteryGs201 \
-    SimpleDeviceConfigOverlayGs201
+    SettingsOverlayBatteryGs201
 
 # Parts
 PRODUCT_PACKAGES += \
