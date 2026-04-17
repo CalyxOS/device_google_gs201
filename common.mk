@@ -286,10 +286,6 @@ PRODUCT_COPY_FILES += \
 # Hardware Info
 include hardware/google/pixel/HardwareInfo/HardwareInfo.mk
 
-# AiAi Config
-PRODUCT_COPY_FILES += \
-    device/google/gs201/allowlist_com.google.android.as.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/allowlist_com.google.android.as.xml
-
 # Android Verified Boot
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.verified_boot.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.verified_boot.xml
